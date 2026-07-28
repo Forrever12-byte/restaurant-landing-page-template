@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Karla", sans-serif;
+  --color-primary: #f97316;
+}
