@@ -35,7 +35,8 @@ menuToggle.addEventListener('click', function() {
 });
 
 let menuItems = [
-    {name: "Suya Skewers", description: "Grilled spiced beef skewers with onions and tomatoes", price: "₦2,000", image: "images/menu/starters/suya-skewers.jpg", category: "starters"},
+    {name: "Jollof Rice & Chicken", description: "Classic smoky jollof rice with grilled chicken", price: "₦4,500", image: "images/menu/mains/jollof-and-chicken.jpg", category: "mains"},
+    {name: "Smoothie (Mixed Fruit)", description: "Blended seasonal fruit smoothie", price: "₦2,500", image: "images/menu/drinks/smoothies.jpg", category: "drinks"},
     {name: "Peppered Snails", description: "Tender snails tossed in a spicy pepper sauce", price: "₦3,500", image: "images/menu/starters/peppered-snail.jpg", category: "starters"},
     {name: "Puff Puff Bites", description: "Sweet fried dough bites served warm", price: "₦1,500", image: "images/menu/starters/puff-puff.jpg", category: "starters"},
     {name: "Chicken Spring Rolls", description: "Crispy rolls filled with seasoned chicken and vegetables", price: "₦2,500", image: "images/menu/starters/chicken-spring-rolls.jpg", category: "starters"},
@@ -44,7 +45,7 @@ let menuItems = [
     {name: "Grilled Prawns", description: "Charred prawns in garlic butter sauce", price: "₦4,000", image: "images/menu/starters/grilled-prawn.jpg", category: "starters"},
     {name: "Vegetable Samosa", description: "Crispy pastry filled with spiced vegetables", price: "₦1,800", image: "images/menu/starters/vegetable-samosa.jpg", category: "starters"},
     {name: "Pepper Soup (Goat Meat)", description: "Spicy traditional broth with tender goat meat", price: "₦3,200", image: "images/menu/starters/goat-peppersoup.jpg", category: "starters"},
-    {name: "Jollof Rice & Chicken", description: "Classic smoky jollof rice with grilled chicken", price: "₦4,500", image: "images/menu/mains/jollof-and-chicken.jpg", category: "mains"},
+    {name: "Suya Skewers", description: "Grilled spiced beef skewers with onions and tomatoes", price: "₦2,000", image: "images/menu/starters/suya-skewers.jpg", category: "starters"},
     {name: "Fried Rice & Beef", description: "Nigerian-style fried rice with tender beef", price: "₦4,500", image: "images/menu/mains/fried-rice-beef.jpg", category: "mains"},
     {name: "Pounded Yam & Egusi", description: "Smooth pounded yam with rich melon seed soup", price: "₦5,000", image: "images/menu/mains/pounded-yam-egusi.jpg", category: "mains"},
     {name: "Grilled Tilapia & Plantain", description: "Whole grilled fish served with fried plantain", price: "₦5,500", image: "images/menu/mains/grilled-tilapia-plantain.jpg", category: "mains"},
@@ -56,7 +57,6 @@ let menuItems = [
     {name: "Chapman", description: "Classic Nigerian fruit cocktail, non-alcoholic", price: "₦2,000", image: "images/menu/drinks/chapman.jpg", category: "drinks"},
     {name: "Zobo", description: "Chilled hibiscus drink with ginger and fruit", price: "₦1,500", image: "images/menu/drinks/zobo.jpg", category: "drinks"},
     {name: "Fresh Orange Juice", description: "Freshly squeezed orange juice", price: "₦1,800", image: "images/menu/drinks/orange-juice.jpg", category: "drinks"},
-    {name: "Smoothie (Mixed Fruit)", description: "Blended seasonal fruit smoothie", price: "₦2,500", image: "images/menu/drinks/smoothies.jpg", category: "drinks"},
     {name: "Chilled Palm Wine", description: "Traditional fresh palm wine, served cold", price: "₦2,200", image: "images/menu/drinks/palm-wine.jpeg", category: "drinks"},
     {name: "Soft Drink (Coke/Fanta/Sprite)", description: "Chilled bottled soft drink", price: "₦1,000", image: "images/menu/drinks/soft-drink.jpg", category: "drinks"},
     {name: "Iced Tea", description: "Refreshing chilled tea with lemon", price: "₦1,800", image: "images/menu/drinks/ice-tea.jpg", category: "drinks"},
